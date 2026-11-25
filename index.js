@@ -10,7 +10,7 @@ const app  = express();
 const PORT = process.env.PORT || 3000;
 
 // ── Config ────────────────────────────────────────────────────────────────────
-const COOKIE       = process.env.ROBLOSECURITY;
+const COOKIE = "_|WARNING:-DO-NOT-SHARE-THIS.--Sharing-this-will-allow-someone-to-log-in-as-you-and-to-steal-your-ROBUX-and-items.|_CAEQAhoGCAIQBBgBIhwKBGR1aWQSFDExOTM1OTU1ODA2NjA2NDU1NzU3IhcKBXVuYW1lEg5GcmFtZWRCb3dsNzA4MiISCgN1aWQSCzEyMDAxMjI4NjIwKAM.gNcKOb8Ix-LyW_IbsJmXhTAXmQDPPI0O4ebOts2qf1Is0ro9iSEq888TH70elGlvFaTpd8p_sjWUuKlo4LmzOge73Z4uGs9VHN6BBVJncFMgmLbq82-VlVeu3Pu8q-E1DHCvWnRLZPhuHCqOBakvYXeAS3l8encalfDSoJr49AUFlH044T4l8D6mbir25QyiEmMXBtOoPSA2tpq1BzTppXGYPqQKDptWQRRf2z5xloOh-49ZkFj0nqhuqTyyY-AvRyQ48lyUrOFDBhZ70c9kgmQ1gWZKAcoKFHINGN8dZZHSZFrUVzDCuTfkfjiNXcsI6SxXt3tpRl1KLq0Dck74UvqIyurHem0OApSMCHToQ2EsN5SvVh6jPOeNzP-WawuAbLw6AZPVJ2zlcijK1buMjTbsXW8Hd9sCYxNCRzopznRLe9xqnacRp9pUEl6LSjaqmcIZhNbqcATidmP2JxTwt460dcpsMzX6ZCvj4RspAHcbYNlMKryEUqIYgPz8rA0IMFC2wE6z_YrP5QUSeGMw2SzmLo1qTvkJMxEH-_87cVUtSq6xBpm8bn2LIZomiBrYhOx1EqMYS_yPvYQ4YjWsmct2p1CSrpS5PHBRwn1HpRQimaRrQNuKv8Iy1jyPzsnKOqciZWSaAzZ5gUe3V3NXWK08JDFopRRwhmvWCwE1uxL9Danh3cZ6hAI0SQiuP7UapVJkjtyMFtGtACXWsZC9gNcxUBLk0kKbO0BDph5JY3wtgnkIYg8tikyP3qL-iCId.Tl6bFL60XiWzR8C_UXGx2nFDq7k";
 const SCAN_INTERVAL= 60 * 1000;   // scan every 60s
 const MAX_SERVERS  = 25;           // servers to scan per pass (keep low, free tier)
 
